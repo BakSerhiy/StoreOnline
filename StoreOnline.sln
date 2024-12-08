@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{3D513D51-48AF-46AA-91B1-208590AE84BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog_BLL", "Catalog_BLL\Catalog_BLL.csproj", "{31396851-84D2-499F-8D8B-FC1AF621F08F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog_DAL", "Catalog_DAL\Catalog_DAL.csproj", "{4635489B-FCBF-45C6-8747-DD883B4A5F95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog_WebApi", "Catalog_WebApi\Catalog_WebApi.csproj", "{12C60FFF-61B8-4008-9D2B-8D6034A17154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31396851-84D2-499F-8D8B-FC1AF621F08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31396851-84D2-499F-8D8B-FC1AF621F08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31396851-84D2-499F-8D8B-FC1AF621F08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31396851-84D2-499F-8D8B-FC1AF621F08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4635489B-FCBF-45C6-8747-DD883B4A5F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4635489B-FCBF-45C6-8747-DD883B4A5F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4635489B-FCBF-45C6-8747-DD883B4A5F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4635489B-FCBF-45C6-8747-DD883B4A5F95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C60FFF-61B8-4008-9D2B-8D6034A17154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C60FFF-61B8-4008-9D2B-8D6034A17154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C60FFF-61B8-4008-9D2B-8D6034A17154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C60FFF-61B8-4008-9D2B-8D6034A17154}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31396851-84D2-499F-8D8B-FC1AF621F08F} = {3D513D51-48AF-46AA-91B1-208590AE84BD}
+		{4635489B-FCBF-45C6-8747-DD883B4A5F95} = {3D513D51-48AF-46AA-91B1-208590AE84BD}
+		{12C60FFF-61B8-4008-9D2B-8D6034A17154} = {3D513D51-48AF-46AA-91B1-208590AE84BD}
+	EndGlobalSection
+EndGlobal
